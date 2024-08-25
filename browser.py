@@ -13,7 +13,6 @@ def show(body):
 
 def load(url):
     body = url.request()
-    print('elele', body)
     show(body)
 
 
